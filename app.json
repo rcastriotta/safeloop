@@ -1,0 +1,40 @@
+{
+    "expo": {
+        "name": "SafeLoop",
+        "slug": "safeloop",
+        "version": "1.0.1",
+        "orientation": "portrait",
+        "icon": "./assets/icon.png",
+        "splash": {
+            "image": "./assets/splash.png",
+            "resizeMode": "contain",
+            "backgroundColor": "#111422"
+        },
+        "updates": {
+            "fallbackToCacheTimeout": 0
+        },
+        "assetBundlePatterns": [
+            "**/*"
+        ],
+        "android": {
+            "package": "com.company",
+            "config": {
+                "googleMaps": {
+                    "apiKey": "<android maps key>"
+                }
+            }
+        },
+        "ios": {
+            "supportsTablet": false,
+            "bundleIdentifier": "com.safeloop",
+            "buildNumber": "1.0.0",
+            "config": {
+                "googleMapsApiKey": "AIzaSyCpFespimqgN7ACag02lSD1lCltQdbrq88",
+                "googleMobileAdsAppId": "ca-app-pub-1190322108532531~7339346116"
+            }
+        },
+        "web": {
+            "favicon": "./assets/favicon.png"
+        }
+    }
+}
